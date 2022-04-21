@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #F8B602;        /* color of the tracking area */
+  background: #bc1c23;        /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
@@ -33,13 +33,13 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid #2E2E2E;  /* creates padding around scroll thumb */
 }
 .col-yellow {
-    color:#F8B602 !important;
+    color:#bc1c23 !important;
 }
 .col-black {
     color:#2E2E2E !important;
 }
 .bg-yellow {
-    background:#F8B602 !important;
+    background:#bc1c23 !important;
 }
 .bg-black {
     background:#2E2E2E !important;
@@ -287,7 +287,7 @@ body::-webkit-scrollbar-thumb {
 	color: white;
 }
 .sidebar #sidebar_menu > li a:hover {
-	background:#F8B602;
+	background:#bc1c23;
 	color: white;
 }
 .sidebar #sidebar_menu > li a {
@@ -372,11 +372,11 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 input:checked + .slider {
-  background-color: #F8B602;
+  background-color: #bc1c23;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #F8B602;
+  box-shadow: 0 0 1px #bc1c23;
 }
 
 input:checked + .slider:before {
@@ -413,7 +413,7 @@ input:checked + .slider:before {
     border-radius: 0px;
 }
 .nav-link-notify:before {
-    background-color: #F8B602;
+    background-color: #bc1c23;
 }
 .main_content .main_content_iner {
     padding: 0px 30px 0px 30px;
@@ -425,25 +425,24 @@ input:checked + .slider:before {
       width: 240px;
 }
 .profile_info .profile_info_iner .profile_author_name {
-      background: #f8b602;
+      background: #bc1c23;
 }
 .profile_info .profile_info_iner::before {
-      border-color: transparent transparent #f8b602 transparent;
+      border-color: transparent transparent #bc1c23 transparent;
 }
 .profile_info .profile_info_details a {
     color: #2e3e5d;
     font-weight: 400;
 }
 .profile_info .profile_info_details a:hover {
-    color: #f8b602;
+    color: #bc1c23;
 }
 .header_iner .header_right .header_notification_warp li > a {
     margin-right: 45px;
 }
 
 .sec-1 {
-    background: linear-gradient(
-180deg, #71DA80 0%, #18C180 100%);
+    background:#BC1C23;
     height: 100vh;
 }
 .sec-1 img 
@@ -835,7 +834,7 @@ input:checked + .slider:before {
     border-radius: 0 !important;
 }
 .barfiller span.fill {
-    background: #F8B602 !important;
+    background: #bc1c23 !important;
 }
 .sec-37 h4 {
     font-size: 16px;
@@ -849,7 +848,7 @@ input:checked + .slider:before {
     font-size: 25px;
 }
 .circle-class i {
-    color: #f8b602;
+    color: #bc1c23;
 }
 .sec-38 {
     background: white;
@@ -993,8 +992,8 @@ input#Description {
 }
 .btn.sec-48 {
     color: #fff;
-    background-color: #F8B602;
-    border-color: #F8B602;
+    background-color: #bc1c23;
+    border-color: #bc1c23;
     font-size: 14px;
     padding: 10px 55px 10px 55px;
     border-radius: 16px;
@@ -1193,8 +1192,8 @@ input#file {
     margin-top: 25px;
 }
 .browseProfilePhoto:hover {
-    background: #F8B602;
-    border: 1px solid #F8B602;
+    background: #bc1c23;
+    border: 1px solid #bc1c23;
 
 }
 
@@ -1293,12 +1292,12 @@ input#file {
 }
 .nav-item-custom li a:hover {
     color: #fff !important;
-    background-color: #F8B602 !important;
+    background-color: #bc1c23 !important;
 }
 
 .nav-item-custom li a.active{
     color: #fff !important;
-    background-color: #F8B602 !important;
+    background-color: #bc1c23 !important;
 }
 
 
@@ -1332,12 +1331,12 @@ input#file {
 }
 
 .order-cell:hover {
-    border: 1px solid #F8B602;
+    border: 1px solid #bc1c23;
     background-color: rgba(248, 182, 2, 0.1);
 }
 
 .order-cell:active {
-    border: 1px solid #F8B602;
+    border: 1px solid #bc1c23;
     background-color: rgba(248, 182, 2, 0.1);
 }
 
@@ -1394,7 +1393,7 @@ input#file {
 }
 
 .order-cell:hover .right-arrow {
-    background: #F8B602 !important;
+    background: #bc1c23 !important;
     border-radius: 8px !important;
     color: white !important;
 }
@@ -1436,7 +1435,7 @@ input#file {
 
 .location-pin {
     padding-right: 10px;
-    color: #F8B602;
+    color: #bc1c23;
 }
 
 .horirow {
@@ -1455,7 +1454,7 @@ input#file {
 
 .btn.acceptorder {
     padding: 16px 24px;
-    background: #F8B602;
+    background: #bc1c23;
     border-radius: 16px;
     color: #fff !important;
 }
@@ -1500,7 +1499,7 @@ input#file {
 
 .serach_field-area .search_inner button i {
     font-size: 18px;
-    color: #F8B602;
+    color: #bc1c23;
 }
 i.fas.fa-search {
     display: flex;
@@ -1563,7 +1562,7 @@ i.fas.fa-search {
     width: 100%;
 }
 .fa-star {
-    color: #F8B602;
+    color: #bc1c23;
 }
 .order-des {
     font-size: 12px;
@@ -1598,7 +1597,7 @@ i.fas.fa-search {
 }
 .left-arrow:hover, .rigt-arrow:hover {
     color: #fff;
-    background-color: #F8B602;
+    background-color: #bc1c23;
     border-color: transparent;
     padding: 12px 20px;
     border-radius: 16px !important;
@@ -1609,13 +1608,13 @@ i.fas.fa-search {
 
 .page-link-nav:hover {
     color: #fff !important;
-    background: #F8B602 !important;
+    background: #bc1c23 !important;
     border-radius: 16px !important;
     padding: 12px 20px;
-    border-color: #F8B602;
+    border-color: #bc1c23;
 }
 .page-item.active a {
-    background: #f8b602 !important;
+    background: #bc1c23 !important;
     color: white !important;
 }
 .page-item.disable a {
@@ -1672,15 +1671,15 @@ i.fas.fa-search {
     border-radius: 16px;
 }
 .btn.list-btn:hover i {
-    color: #F8B602;
+    color: #bc1c23;
     
 }
 .page-item .active {
     color: #fff !important;
-    background: #F8B602 !important;
+    background: #bc1c23 !important;
     border-radius: 16px !important;
     padding: 12px 20px;
-    border-color: #F8B602;
+    border-color: #bc1c23;
 }
 
 @-webkit-keyframes fadeOut {
@@ -1726,7 +1725,7 @@ i.fas.fa-search {
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #f8b602;
+    border-top: 16px solid #bc1c23;
     width: 120px;
     height: 120px;
     -webkit-animation: spin 1s linear infinite;
@@ -1773,10 +1772,10 @@ i.fas.fa-search {
     border: 0px;
 }
 .paginate_button.previous:hover, .paginate_button.next:hover{
-    background: #f8b602 !important;
+    background: #bc1c23 !important;
 }
 div#DataTables_Table_0_paginate .current {
-    background-color: #f8b602 !important;
+    background-color: #bc1c23 !important;
 }
 .status-icons {
     padding: 0px 5px;
@@ -1786,7 +1785,7 @@ div#DataTables_Table_0_paginate .current {
     font-size: 16px;
 }
 .status-icons i:hover {
-    color: #f8b602;
+    color: #bc1c23;
     font-size: 16px;
 }
 #DataTables_Table_0_info {

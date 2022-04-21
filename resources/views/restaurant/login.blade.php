@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-12 no-pad">
                 <div class="sec-1">
-                    <img src="{{URL::to('/public/restaurant/assets')}}/images/image1.png" width="45%"> 
+                    <img src="{{URL::to('/public/restaurant/assets')}}/images/image1.png" width="30%"> 
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-12 sec-2-back">

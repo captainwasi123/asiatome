@@ -24,10 +24,13 @@ use App\Http\Middleware;
         Route::get('/login', 'authController@login')->name('restaurant.login');
         Route::post('/login', 'authController@loginSubmit');
         Route::get('/logout', 'authController@logout')->name('restaurant.logout');
+
       
         //MiddleWare
             Route::middleware('restaurantAuth')->group(function(){
                 Route::get('/', 'mainController@index')->name('restaurant.index');
+                Route::get('/rider', 'mainController@rider')->name('restaurant.rider.rider');
+                Route::get('/review/report-order', 'mainController@reportOrder')->name('restaurant.reviews.report-order');
 
                 Route::prefix('menus')->group(function(){
                         Route::get('/', 'menuController@menu')->name('restaurant.menu');

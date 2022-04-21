@@ -63,7 +63,7 @@
 		                        <div class="col-lg-8 col-md-6 col-12 no-pad">
 									<svg viewbox="0 0 110 70">
 									  <circle cx="50" cy="50" r="45" fill="#fff"/>
-									  <path fill="none" stroke-linecap="box" stroke-width="10" stroke="#f8b602"
+									  <path fill="none" stroke-linecap="box" stroke-width="10" stroke="#bc1c23"
 									        stroke-dasharray="70,112"
 									        d="M50 10
 									           a 40 40 0 0 1 0 80

@@ -16,27 +16,40 @@
           </a>
         </li>
         <li class="">
-          <a href="{{route('restaurant.menu')}}" aria-expanded="false">
-            <div class="icon_menu">
-                <img src="{{URL::to('/public/restaurant/assets')}}/images/menu-icon.png" alt="">
-            </div>
-            <span>Menu</span>
-          </a>
+            <a class="has-arrow" href="#" aria-expanded="true">
+              <div class="icon_menu">
+                  <img src="{{URL::to('/public/restaurant/assets')}}/images/dashboard-icon.png" alt="">
+              </div>
+              <span>Report</span>
+            </a>
+            <ul>
+              <li><a href="{{URL::to('/restaurant/review/report-order')}}" >Order</a></li>
+              <li><a href="{{URL::to('/restaurant/reviews/review')}}">Customer's Feedback</a></li>
+            </ul>
         </li>
         <li class="mm-active">
           <a href="{{URL::to('/restaurant/orders/order')}}" aria-expanded="false">
             <div class="icon_menu">
                 <img src="{{URL::to('/public/restaurant/assets')}}/images/order-icon.png" alt="">
             </div>
-            <span>Food Order</span>
+            <span>Order</span>
           </a>
         </li>
+        <li class="">
+          <a href="{{route('restaurant.menu')}}" aria-expanded="false">
+            <div class="icon_menu">
+                <img src="{{URL::to('/public/restaurant/assets')}}/images/menu-icon.png" alt="">
+            </div>
+            <span>Food Listing</span>
+          </a>
+        </li>
+        
         <li class="mm-active">
-          <a href="{{URL::to('/restaurant/reviews/review')}}" aria-expanded="false">
+          <a href="{{URL::to('/restaurant/rider')}}" aria-expanded="false">
             <div class="icon_menu">
                 <img src="{{URL::to('/public/restaurant/assets')}}/images/review-icon.png" alt="">
             </div>
-            <span>Reviews</span>
+            <span>Rider</span>
           </a>
         </li>
         <li class="mm-active">
@@ -47,6 +60,10 @@
             <span>Setting</span>
           </a>
         </li>
+        <!-- extra menu -->
+          
+        <!-- extra menu -->
+
         <!-- li class="mm-active">
           <a href="#" aria-expanded="false">
             <div class="icon_menu">
@@ -74,9 +91,10 @@
           </li> -->
         <!-- extra menu -->
     </ul>
-    <div class="delivery-section">
+    <!-- <div class="delivery-section">
         <div class="row">
-            <div class="col-lg-8 col-md-8 col-8">
+            <div class="col-lg-12 col-md-12 col-8">
+
                 <span>Delivery Status</span>
             </div>
             <div class="col-lg-4 col-md-4 col-4">
@@ -86,7 +104,7 @@
                 </label>
             </div>
         </div>
-    </div>
+    </div> -->
 </nav>
 <!-- sidebar part end -->
 

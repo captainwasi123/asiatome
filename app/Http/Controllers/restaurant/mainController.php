@@ -21,4 +21,12 @@ class mainController extends Controller
 
         return view('restaurant.reviews.review');
     }
+    function rider(){
+
+        return view('restaurant.rider.rider');
+    }
+    function reportOrder(){
+
+        return view('restaurant.reviews.report-order');
+    }
 }
